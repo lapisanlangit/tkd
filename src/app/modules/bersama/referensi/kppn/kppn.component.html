@@ -1,0 +1,30 @@
+<!-- <table class="table table-striped">
+	<thead>
+		<tr>
+			<th scope="col">Kode</th>
+			<th scope="col">Nama</th>
+		</tr>
+	</thead> -->
+	<!-- <ajax-loading [ajax]="ajax"></ajax-loading> -->
+
+
+
+	<table class="table">
+		<thead>
+		  <tr>
+			<th scope="col">KODE</th>
+			<th scope="col">NAMA</th>
+
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr *ngFor="let item of listKPPN">
+	
+			<td>{{item.KDKPPN}}</td>
+			<td>{{item.NMKPPN}}</td>
+		  </tr>
+		 
+		</tbody>
+	  </table>
+<!-- </table> -->
+
